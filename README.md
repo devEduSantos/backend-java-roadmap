@@ -62,4 +62,4 @@ Atualizações frequentes serão feitas conforme avanço nos estudos.
 
 ## 👨‍💻 Autor
 
-Desenvolvido por [Seu Nome]
+Desenvolvido por [Eduardo Santos S F]
