@@ -6,32 +6,27 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("CADASTRO DE PESSOA TRABALHISTA(MAIORES DE IDADE): ");
-        System.out.print("Nome: ");
-        String nome = sc.nextLine();
-        System.out.print("Idade: ");
-        int idade = sc.nextInt();
-        if(idade < 18){
-            System.out.println("Você é menor de idade, tente novamente quando você possuir 18 anos ou mais");
-            return;
-        }
-        System.out.print("Salario: ");
-        double salario = sc.nextDouble();
-        if(salario < 1548){
-            System.out.println("Salario invalido, está abaixo do salario minimo estabelecido pela lei, tente novamente com um salário justo.");
-            return;
-        }
-        System.out.println("CPF(Digite sem pontuações ou traços apenas digitos): ");
-        sc.nextLine();
-        String cpf = sc.nextLine();
-        if(cpf.length() != 11){
-            System.out.println("CPF invalido");
-            return;
+        double[] notas = new double[4];
+
+        System.out.println("----------------------NOTAS BIMESTRAIS DOS ALUNOS---------------------------------");
+        for(int x = 1; x <= notas.length; x++){
+            System.out.println("Nota do " + x + "ºBimestre");
+            notas[x-1] = sc.nextDouble();
         }
 
-        System.out.println("------------INFORMAÇÔES DO TRABALHADOR--------------");
-        System.out.printf("Nome: %s\nIdade: %d\nSalario: R$ %.2f\nCPF: %s",nome,idade,salario,cpf);
+        double somaNotas = 0;
+        for(int y = 0; y < notas.length; y++){
+            somaNotas += notas[y];
+        }
+
+        double media = somaNotas/notas.length;
+
+        if(media>=7){
+            System.out.println("APROVADO");
+        }else{
+            System.out.println("REPROVADO");
+        }
 
         sc.close();
-        }
     }
+}
