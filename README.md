@@ -5,6 +5,7 @@ Este repositório documenta minha jornada de aprendizado em desenvolvimento back
 ## 🧠 Objetivo
 
 Me tornar um desenvolvedor backend profissional, dominando:
+
 - Java
 - Programação Orientada a Objetos
 - Banco de Dados
@@ -16,23 +17,23 @@ Me tornar um desenvolvedor backend profissional, dominando:
 
 ## 📚 Estrutura do Repositório
 
-| Módulo | Conteúdo |
-|--------|--------|
-| 01 | Fundamentos de Programação |
-| 02 | Java e POO |
-| 03 | Estruturas de Dados |
-| 04 | Banco de Dados |
-| 05 | Spring Boot |
-| 06 | APIs REST |
-| 07 | Segurança |
-| 08 | Testes |
-| 09 | Projeto Final |
+| Módulo | Conteúdo                   |
+| ------ | -------------------------- |
+| 01     | Fundamentos de Programação |
+| 02     | Java e POO                 |
+| 03     | Estruturas de Dados        |
+| 04     | Banco de Dados             |
+| 05     | Spring Boot                |
+| 06     | APIs REST                  |
+| 07     | Segurança                  |
+| 08     | Testes                     |
+| 09     | Projeto Final              |
 
 ---
 
 ## 📈 Progresso
 
-- [ ] Fundamentos
+- [x] [Fundamentos](https://github.com/devEduSantos/backend-java-roadmap/tree/main/1-fundamentos/1.1-logica-de-programacao)
 - [ ] Java POO
 - [ ] Estruturas de Dados
 - [ ] Banco de Dados
